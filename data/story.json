@@ -1,0 +1,45 @@
+{
+  "parts": [
+    {
+      "id": 0,
+      "name": "Part 1",
+      "text": "This is part 1",
+      "options": [
+        {
+          "id": 0,
+          "text": "This takes you to part 2",
+          "target": 1
+        },
+        {
+          "id": 1,
+          "text": "This takes you to part 3",
+          "target": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Part 2",
+      "text": "This is part 2",
+      "options": [
+        {
+          "id": 2,
+          "text": "Go back to start",
+          "target": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Part 3",
+      "text": "This is part 3",
+      "options": [
+        {
+          "id": 4,
+          "text": "Go back to part 2",
+          "target": 1
+        }
+      ]
+    }
+  ]
+}
