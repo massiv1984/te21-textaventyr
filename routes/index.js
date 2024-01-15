@@ -9,6 +9,7 @@ router.get('/', function (req, res) {
 })
 
 router.get('/story/:id', function (req, res) {
+  console.log(req.params.id)
   const part = story.parts.find((part) => part.id === parseInt(req.params.id))
   if (!part) {
     res.status(404).render('404.njk', { title: '404' })

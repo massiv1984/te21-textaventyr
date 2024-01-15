@@ -2,18 +2,24 @@
   "parts": [
     {
       "id": 0,
-      "name": "Part 1",
-      "text": "This is part 1",
+      "name": "Your journey begins",
+      "image": "step-0.jpg",
+      "text": "As you step through the mystical portal, the air crackles with magic, and you find yourself standing in a breathtaking landscape of Eldoria. The sky is painted with hues unknown to your world, and fantastical creatures roam in the distance. Before you stretches a path leading to the heart of the realm. As you begin your journey, an ancient figure appears before you. 'Greetings, traveler! In Eldoria, you'll face challenges beyond your wildest imagination. But fear not, for you may choose a weapon to aid you on your quest.'",
       "options": [
         {
-          "id": 0,
-          "text": "This takes you to part 2",
+          "text": "Select the Enchanted Sword",
+          "path": "select_sword",
           "target": 1
         },
         {
-          "id": 1,
-          "text": "This takes you to part 3",
+          "text": "Choose the Elemental Staff",
+          "path": "select_staff",
           "target": 2
+        },
+        {
+          "text": "Opt for the Arcane Bow",
+          "path": "select_bow",
+          "target": 3
         }
       ]
     },
