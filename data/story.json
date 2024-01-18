@@ -2,48 +2,72 @@
   "parts": [
     {
       "id": 0,
-      "name": "Your journey begins",
-      "image": "step-0.jpg",
-      "text": "As you step through the mystical portal, the air crackles with magic, and you find yourself standing in a breathtaking landscape of Eldoria. The sky is painted with hues unknown to your world, and fantastical creatures roam in the distance. Before you stretches a path leading to the heart of the realm. As you begin your journey, an ancient figure appears before you. 'Greetings, traveler! In Eldoria, you'll face challenges beyond your wildest imagination. But fear not, for you may choose a weapon to aid you on your quest.'",
+      "name": "A Newborn's Visit to Smauel's Spaghetteria",
+      "image": "newborn-visiting-spaghetteria.jpg",
+      "text": "In the quaint town of Umeå, a newborn embarks on a unique journey. One day, as the baby explores the surroundings, they come across a charming place known as Smauel's Spaghetteria. The aroma of freshly cooked pasta wafts through the air, and the lively atmosphere captures the attention of the tiny adventurer. Samuel, the friendly owner, notices the newborn and warmly welcomes them into the spaghetteria.",
       "options": [
         {
-          "text": "Select the Enchanted Sword",
-          "path": "select_sword",
+          "text": "Reach for the Baby Rattle Pasta",
+          "path": "select_rattle_pasta",
           "target": 1
         },
         {
-          "text": "Choose the Elemental Staff",
-          "path": "select_staff",
+          "text": "Giggle at the Spaghetti Swirls",
+          "path": "select_spaghetti_swirls",
           "target": 2
         },
         {
-          "text": "Opt for the Arcane Bow",
-          "path": "select_bow",
+          "text": "Coo and Smile at the Cheese-filled Cannelloni",
+          "path": "select_cannelloni",
           "target": 3
         }
       ]
     },
     {
       "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
+      "name": "The Baby's Joyful Choice",
+      "text": "The newborn reaches out for the Baby Rattle Pasta, and a moment of joy fills the air. The pasta rattles playfully as the baby interacts with the delightful dish, bringing smiles to everyone in Smauel's Spaghetteria.",
       "options": [
         {
-          "id": 2,
-          "text": "Go back to start",
-          "target": 0
+          "text": "Continue the Baby's Adventure",
+          "path": "continue_adventure",
+          "target": 4
         }
       ]
     },
     {
       "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
+      "name": "Giggles Amidst Spaghetti Swirls",
+      "text": "Amidst the Spaghetti Swirls, the newborn giggles with pure delight. The swirling pasta strands create a whimsical scene, and the other diners join in the laughter, creating a heartwarming moment at Smauel's Spaghetteria.",
       "options": [
         {
-          "id": 4,
-          "text": "Go back to part 2",
-          "target": 1
+          "text": "Continue the Baby's Adventure",
+          "path": "continue_adventure",
+          "target": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cooing at Cheese-filled Cannelloni",
+      "text": "The Cheese-filled Cannelloni captures the baby's attention, and they coo and smile in response. Samuel, delighted by the adorable sight, decides to create a special baby-friendly dish, marking the beginning of a unique bond between the newborn and the spaghetteria.",
+      "options": [
+        {
+          "text": "Continue the Baby's Adventure",
+          "path": "continue_adventure",
+          "target": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Unforgettable Beginning",
+      "text": "The visit to Smauel's Spaghetteria becomes an unforgettable beginning for the newborn. As they continue to explore Umeå, the town holds more surprises and adventures for the baby, shaping their destiny in ways only time will reveal.",
+      "options": [
+        {
+          "text": "End of the Newborn's Tale",
+          "path": "end_tale",
+          "target": null
         }
       ]
     }
