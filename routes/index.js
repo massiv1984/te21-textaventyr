@@ -25,10 +25,10 @@ router.get('/dbtest/:id', async (req, res) => {
     const id = req.params.id
     const [parts] = await pool
       .promise()
-      .query('SELECT * FROM emil_part WHERE id = ${id}')
+      .query(`SELECT * FROM emil_part WHERE id = ${id}`)
     const [options] = await pool
       .promise()
-      .query('SELECT * FROM jens_option WHERE part_id = ${id}')
+      .query(`SELECT * FROM jens_option WHERE part_id = ${id}`)
     res.json({ parts, options })
   } catch (error) {
     console.log(error)
