@@ -26,6 +26,7 @@
     {
       "id": 1,
       "name": "The Baby's Joyful Choice",
+      "image": "smauelspaghetteria.jpg",
       "text": "The newborn reaches out for the Baby Rattle Pasta, and a moment of joy fills the air. The pasta rattles playfully as the baby interacts with the delightful dish, bringing smiles to everyone in Smauel's Spaghetteria.",
       "options": [
         {
@@ -38,6 +39,7 @@
     {
       "id": 2,
       "name": "Giggles Amidst Spaghetti Swirls",
+      "image": "smauelspaghetteria.jpg",
       "text": "Amidst the Spaghetti Swirls, the newborn giggles with pure delight. The swirling pasta strands create a whimsical scene, and the other diners join in the laughter, creating a heartwarming moment at Smauel's Spaghetteria.",
       "options": [
         {
@@ -50,6 +52,7 @@
     {
       "id": 3,
       "name": "Cooing at Cheese-filled Cannelloni",
+      "image": "smauelspaghetteria.jpg",
       "text": "The Cheese-filled Cannelloni captures the baby's attention, and they coo and smile in response. Samúel, delighted by the adorable sight, decides to create a special baby-friendly dish, marking the beginning of a unique bond between the newborn and the spaghetteria.",
       "options": [
         {
@@ -62,13 +65,10 @@
     {
       "id": 4,
       "name": "The Unforgettable Beginning",
+      "image": "smauelspaghetteria.jpg",
       "text": "The visit to Smauel's Spaghetteria becomes an unforgettable beginning for the newborn. As they continue to explore Umeå, the town holds more surprises and adventures for the baby, shaping their destiny in ways only time will reveal.",
       "options": [
-        {
-          "text": "End of the Newborn's Tale",
-          "path": "end_tale",
-          "target": null
-        }
+
       ]
     }
   ]
